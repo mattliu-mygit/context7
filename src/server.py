@@ -12,9 +12,10 @@ from context7 import context7_tools
 server = MCPServer(
     name="context7-mcp",
     http_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
+    streamable_http_stateless=True,
 )
 
 
 async def main() -> None:
     server.collect(*context7_tools)
-    await server.serve(port=3012)
+    await server.serve(port=8080)
