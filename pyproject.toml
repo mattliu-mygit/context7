@@ -21,7 +21,6 @@ dependencies = [
     "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "uvloop>=0.22.1; platform_system != 'Windows'",
-    "pandas>=1.0.0",
     "torch>=2.9.1",
     "torchvision>=0.24.1",
 ]
