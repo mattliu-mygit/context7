@@ -11,7 +11,7 @@ name = "context7-mcp"
 version = "0.1.0"
 description = "Context7 Library Documentation MCP server for Dedalus."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 license = { text = "MIT" }
 keywords = ["ai", "mcp", "agents", "dedalus", "context7", "documentation"]
 
@@ -21,6 +21,9 @@ dependencies = [
     "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "uvloop>=0.22.1; platform_system != 'Windows'",
+    "pandas>=1.0.0",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
 ]
 
 # --- UV CONFIGURATION ---
